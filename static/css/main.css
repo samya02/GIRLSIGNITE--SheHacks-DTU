@@ -1,0 +1,219 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    background: #ebc4db;
+}
+.header {
+    background-image: url("../images/header_bg.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-right: 0%;
+    padding-left: 0%;
+    
+}
+.about {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-right: 0%;
+    padding-left: 0%;
+    overflow: hidden;
+    height: 100% !important;
+}
+
+.wholecard h1 {
+    font-size: 2rem;
+    color: #0d048d;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+
+
+.wholecard p {
+    font-size: 2rem;
+    color: #8d044f;
+    text-align: right;
+    margin-top: -1rem;
+    margin-right: 2rem;
+    font-family: 'Times New Roman', serif;
+}
+.row{
+    text-align: left;
+    color: #022b3a;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.leftcolumn
+{    text-align: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.about .card{ 
+    text-align: left;
+    color: #0a3dad;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 8px;
+    background-color: #dd4c77;
+    padding: 30px;
+    border-width: 2px;
+    border-color: #f4f4f4;}
+
+
+.content h2{
+    word-wrap: break-word;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: #0d048d;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.content p,dd{
+    word-wrap: break-word;
+    text-align: left;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px !important;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.description {
+    left: 25%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: left;
+}
+.description h1 {
+    font-size: 6rem;
+    color: #cf0542;
+}
+.description p {
+    left: 100%;
+    color: rgb(141, 49, 218);
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+.description button {
+    border:1px solid #b446af;
+    background:#e79eb0;
+    border-radius: 0;
+    color:#fff;
+}
+.description button:hover {
+    border:1px solid #fff;
+    background:rgb(88, 223, 233);
+    color:#000;
+}
+.navbar {
+    background: #dd4c77;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    -webkit-animation-direction: normal;
+    -webkit-box-orient: vertical;
+    border: 1px solid;
+    border-radius: .25rem;
+    background-clip: border-box;
+}
+.main_content H1{
+    font-style: italic;
+    font-size: 2.5rem;
+    color: rgb(107, 60, 235);
+
+}
+.main_content p{
+    font-size: 1.25rem;
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.page-footer{
+    padding: 20px;
+    
+    background: #e6819f;
+}
+
+

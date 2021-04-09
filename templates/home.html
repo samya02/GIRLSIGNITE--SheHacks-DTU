@@ -1,0 +1,41 @@
+{%extends "layout.html"%}
+{%block content%}
+
+    <div class="home">
+    <header class="page-header header container-fluid">
+        <div class="overlay"></div>
+        <div class="description">
+            <h1>GirlsIgnite</h1>
+            <p>Empowering young minds!</p>
+            <button class="btn btn-outline-secondary btn-lg"><a href="#aboutus">Learn More!</button></a>
+        </div>
+    </header>
+   <br>
+   <br>
+   <center>
+        <div class="card my-5 mx-5 py-5 px-5" id="aboutus">
+            <div class="main_content">
+                    <div id="about">
+                        <center>
+                            <H1>
+                                <strong><u>
+                                    About Us
+                                </strong></u>
+                            </H1>
+                            <hr width=50% opacity=0.5>
+                            <p>
+                                GirlsIgnite is an idea to create a platform for young girls to gain knowledge about opportunities in STEM 
+                                and also share their individual stories.
+                            </p>
+                            <img id="stem" src="../static/images/initiative_img.png"><br>
+                            <button class="btn btn-outline-secondary btn-lg"><a href="{{url_for('about')}}">More About STEM</a></button>
+                            <button class="btn btn-outline-secondary btn-lg"><a href="{{url_for('contact')}}">Volunteer</a></button>
+                        </center>
+                    </div>
+            </div>   
+            </div>
+            
+    </center>
+</div>
+
+{%endblock%}
