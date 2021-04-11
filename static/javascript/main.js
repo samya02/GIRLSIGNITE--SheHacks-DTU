@@ -4,3 +4,6 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.about').height($(window).height());
 })
+$(document).ready(function(){
+    $('.success').height($(window).height());
+})

@@ -1,5 +1,5 @@
 body {
-
+    position: static;
     padding: 0;
     margin: 0;
     background: #ebc4db;
@@ -212,7 +212,7 @@ body {
 }
 .page-footer{
     padding: 20px;
-    
+    position: absolute;
     background: #e6819f;
 }
 
