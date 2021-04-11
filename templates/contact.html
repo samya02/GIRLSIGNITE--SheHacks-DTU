@@ -6,19 +6,21 @@
         <br>
         <center><h6>Become a part of a this change!</h6></center>
         <br>
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Name" name="">
-        </div>
-        <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email Address" name="email">
-        </div>
-        <div class="form-group">
-            <input type="college" class="form-control" placeholder="College" name="college">
-        </div>
-        <div class="form-group">
-            <textarea class="form-control" rows="4" placeholder="Kindly mention your ideas and the way you would like to volunteer here"></textarea>
-        </div>
-        <a href="{{url_for('success')}}"><input type="submit" class="btn btn-secondary btn-block" value="Send" name=""></a>
+        <form action="{{url_for('success')}}" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" name="name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email Address" name="email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="College" name="college">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Kindly mention your ideas and the way you would like to volunteer here" name="ideas"></textarea>
+            </div>
+            <center><button type="submit">Submit</button></center>
+        </form>
 </div>
 
 {%endblock%}
