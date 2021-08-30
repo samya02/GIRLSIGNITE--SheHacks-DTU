@@ -1,2 +1,2 @@
 # GIRLSIGNITE--SheHacks-DTU
-The repository is the project of team EarlyCoders
+GirlsIgnite was built by Team EarlyCoders as a part of SheHacks DTU 2021
